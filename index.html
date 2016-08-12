@@ -1,50 +1,57 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-  <head>
-  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-2">
-  <meta name="Przykladowe" content="text/html">
-  <link rel="stylesheet" href="style.css" />
-  <title>Przykladowe WWW</title>
-  <script type="text/javascript" src="jq.js"></script>
-  <script type="text/javascript" src="rvn-gallery/rvn-gallery.js"></script>
-<link rel="stylesheet" type="text/css" href="rvn-gallery/rvn-gallery.css" />
-  </head>
-  <body>
-  <script>
-  $(window).load(function(){
-	$('#gallery').rvnGallery({effect: ['randomBoxes', 'tiles', 'alphaRect'], verticalSlices: 6, horizontalSlices: 4});
-});	</script>
-<ul id="gallery" class="rvnGallery">
-	<li>
-		<img src="img/1.png" alt="pierwszy obrazek" />
-		<p>Pierwszy obrazek.</p>
-	 <a href="foto/foto.html"></a>
-  </li>
-	<li>
-		<img src="img/2.jpg" alt="drugi obrazek" />
-    <p>Drugi obrazek.</p>
-    <a href="foto/foto.html"></a>
-	</li>
-	<li>
-		<img src="img/3.jpg" alt="trzeci obrazek" />
-		<p><strong>Pogrubiony podpis.</strong></p>
-	  <a href="foto/foto.html"></a>
-  </li>
 
-	<li>
-		<img src="img/5.jpg" alt="pi�ty obrazek" />
-    <p>Pierwszy obrazek.</p>
-	<a href="foto/foto.html"></a>
-  </li>
-	<li>
-		<img src="img/4.jpg" alt="sz�sty obrazek" />
-		<p>Ostatni obrazek.</p>
-	<a href="foto/foto.html"></a>
-  </li>
-</ul>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-2">
+    <meta name="Przykladowe" content="text/html">
+    <title>Przykladowe WWW</title>
+    <script type="text/javascript" src="jq.js"></script>
+    <script type="text/javascript" src="rvn-gallery/rvn-gallery.js"></script>
+    <link rel="stylesheet" type="text/css" href="rvn-gallery/rvn-gallery.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
 
-  <div id="menu">
-  <h1>
+<body>
+    <script>
+        $(window).load(function() {
+            $('#gallery').rvnGallery({
+                effect: ['randomBoxes', 'tiles', 'alphaRect'],
+                verticalSlices: 6,
+                horizontalSlices: 4
+            });
+        });
+    </script>
+    <ul id="gallery" class="rvnGallery">
+        <li>
+            <img src="img/1.png" alt="pierwszy obrazek" />
+            <p>Pierwszy obrazek.</p>
+            <a href="foto/foto.html"></a>
+        </li>
+        <li>
+            <img src="img/2.jpg" alt="drugi obrazek" />
+            <p>Drugi obrazek.</p>
+            <a href="foto/foto.html"></a>
+        </li>
+        <li>
+            <img src="img/3.jpg" alt="trzeci obrazek" />
+            <p><strong>Pogrubiony podpis.</strong></p>
+            <a href="foto/foto.html"></a>
+        </li>
+
+        <li>
+            <img src="img/5.jpg" alt="pi�ty obrazek" />
+            <p>Pierwszy obrazek.</p>
+            <a href="foto/foto.html"></a>
+        </li>
+        <li>
+            <img src="img/4.jpg" alt="sz�sty obrazek" />
+            <p>Ostatni obrazek.</p>
+            <a href="foto/foto.html"></a>
+        </li>
+    </ul>
+
+    <div id="menu">
+        <h1>
   <center>
   <a href="index.html">Menu</a>
   <a href="foto/foto.html">Foto</a>
@@ -55,47 +62,44 @@
 
   </center>
   </h1></div>
-<div id="look"><div id="szukaj"><form action="http://www.google.pl/search" method="get">
-<input type="text" name="q" />
-<input type="hidden" name="ie" value="iso-8859-2" />
-<input type="hidden" name="sitesearch" value="http://www.newsdnia.cba.pl" />
-</form>
-</div>
-</div>
-<div id="java"> </div>
-<div class="box">
-<div class="title"><p1>News</p1></div>
-<div class="text">
-<div id="picture">
-<img src="images/web.jpg" alt="web"></div>
-<p>Sceptycy uwa�aj�, �e wiele rozwi�za�, kt�re uznaje si� za elementy tego systemu,
-pojawi�o si� znacznie wcze�niej ni� zacz�to my�le� o rewolucji (mechanizm Wiki powsta� w 1996 roku,
-kana�y RSS w 2000 itd.). Zgodnie z tym tokiem my�lenia, Web 2.0 nie prezentuje nowego spojrzenia na
-sie�, a jedynie kontynuuje rozpocz�te w przesz�o�ci procesy. Paul Boutin, konfrontuj�c kilka
-autonomicznych definicji pr�buje udowodni�, �e w istocie nowe okre�lenie dla starej sieci by�o potrzebne
- �internetowym przedsi�biorcom, kt�rzy sp��nili si� na boom zwi�zany z rozwojem Web 1.0�[2].
- Russel Shaw podtrzymuje to stanowisko, wprost nazywaj�c Web 2.0 �chwytem marketingowym�[3].
-Wiele serwis�w jest uwa�anych lub promuje si� jako Web 2.0 gdy udost�pnia RSS, umo�liwia komentowanie
-i dodawanie artyku�u u�ytkownikom lub ma odpowiedni wygl�d graficzny. R�wnie� tworzenie spo�eczno�ci
-internetowych przypisywane Web 2.0 nie jest niczym nowym, poniewa� od lat koncentruj� si� one wok�� grup
-dyskusyjnych i for�w. Pojawiaj� si� r�wnie� opinie, �e Web 2.0 nie wprowadza �adnych nowo�ci,
-jedynie ��czy technologie Web 1.0, podaje je w nowym opakowaniu i dopisuje do tego filozofie
-komunikacji mi�dzy u�ytkownikami i administracj� serwisu.
-Do tego, jak wynika z danych statystycznych, tylko niewielki procent u�ytkownik�w serwis�w Web 2.0 wnosi
-do nich w�asne tre�ci. Wed�ug statystyk firmy Hitwise (badania z 2007 roku) filmy do serwisu YouTube wysy�a
-0,16%, do Flickr zdj�cia 0,2%, a w Wikipedii publikuje 4,6% odwiedzaj�cych.<a href="index.html"> Czytaj dalej...!</a>
-<div class="separator"></div></p>
+    <div id="look">
+        <div id="szukaj">
+            <form action="http://www.google.pl/search" method="get">
+                <input type="text" name="q" />
+                <input type="hidden" name="ie" value="iso-8859-2" />
+                <input type="hidden" name="sitesearch" value="http://www.newsdnia.cba.pl" />
+            </form>
+        </div>
+    </div>
+    <div id="java"> </div>
+    <div class="box">
+        <div class="title">
+            <p1>News</p1>
+        </div>
+        <div class="text">
+            <div id="picture">
+                <img src="images/web.jpg" alt="web"></div>
+            <p>Sceptycy uwa�aj�, �e wiele rozwi�za�, kt�re uznaje si� za elementy tego systemu, pojawi�o si� znacznie wcze�niej ni� zacz�to my�le� o rewolucji (mechanizm Wiki powsta� w 1996 roku, kana�y RSS w 2000 itd.). Zgodnie z tym tokiem my�lenia, Web
+                2.0 nie prezentuje nowego spojrzenia na sie�, a jedynie kontynuuje rozpocz�te w przesz�o�ci procesy. Paul Boutin, konfrontuj�c kilka autonomicznych definicji pr�buje udowodni�, �e w istocie nowe okre�lenie dla starej sieci by�o potrzebne
+                �internetowym przedsi�biorcom, kt�rzy sp��nili si� na boom zwi�zany z rozwojem Web 1.0�[2]. Russel Shaw podtrzymuje to stanowisko, wprost nazywaj�c Web 2.0 �chwytem marketingowym�[3]. Wiele serwis�w jest uwa�anych lub promuje si� jako
+                Web 2.0 gdy udost�pnia RSS, umo�liwia komentowanie i dodawanie artyku�u u�ytkownikom lub ma odpowiedni wygl�d graficzny. R�wnie� tworzenie spo�eczno�ci internetowych przypisywane Web 2.0 nie jest niczym nowym, poniewa� od lat koncentruj�
+                si� one wok�� grup dyskusyjnych i for�w. Pojawiaj� si� r�wnie� opinie, �e Web 2.0 nie wprowadza �adnych nowo�ci, jedynie ��czy technologie Web 1.0, podaje je w nowym opakowaniu i dopisuje do tego filozofie komunikacji mi�dzy u�ytkownikami
+                i administracj� serwisu. Do tego, jak wynika z danych statystycznych, tylko niewielki procent u�ytkownik�w serwis�w Web 2.0 wnosi do nich w�asne tre�ci. Wed�ug statystyk firmy Hitwise (badania z 2007 roku) filmy do serwisu YouTube wysy�a
+                0,16%, do Flickr zdj�cia 0,2%, a w Wikipedii publikuje 4,6% odwiedzaj�cych.<a href="index.html"> Czytaj dalej...!</a>
+                <div class="separator"></div>
+            </p>
 
-<div class="cont">
-<div id="pictures">
-<img src="images/foto.jpg" alt="foto">
-</div><p>
-Although we endeavor to use the best practices and the latest technology to
-ensure that the solutions and services we provide, meet your objectives. It is really the skills,
-experience and dedication of our people to customer service that bring real value to your organisation. We are all   empowered to find creative solutions to your most complex issues and are
-able to leverage our position of strength in the marketplace to make</p></div>
-</div>
-</div>
+            <div class="cont">
+                <div id="pictures">
+                    <img src="images/foto.jpg" alt="foto">
+                </div>
+                <p>
+                    Although we endeavor to use the best practices and the latest technology to ensure that the solutions and services we provide, meet your objectives. It is really the skills, experience and dedication of our people to customer service that bring real value
+                    to your organisation. We are all empowered to find creative solutions to your most complex issues and are able to leverage our position of strength in the marketplace to make</p>
+            </div>
+        </div>
+    </div>
 
 </body>
+
 </html>
